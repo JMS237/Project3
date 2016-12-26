@@ -67,6 +67,7 @@
 		<div class="row centered mt mb">
 			<div class="col-lg-8 col-lg-offset-2">
 	<form method="post" action="database-write.php">
+    <fieldset>
     <div class="form-group">
       <label for="name">Name:</label>
       <input type="text" class="form-control" name="name" id="name">
@@ -79,14 +80,15 @@
 
      <div class="form-group">
       <label for="phone">Phone:</label>
-      <input type="tel" class="form-control" name="phone" id="phone">
+      <input type="tel" name="phone" id="phone" class="form-control" >
     </div>
    
     <div class="form-group">
       <label for="message">Message:</label>
-      <textarea class="form-control" name="message" id="message" rows="3" placeholder="Enter a message..."></textarea>
+      <textarea name="message" id="message" rows="3" class="form-control"  placeholder="Enter a message..."></textarea>
     </div>
     <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
 </form>
 			</div>
 
