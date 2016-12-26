@@ -13,5 +13,5 @@
 		if($NumberOfRowsAffected < 1 ) {
  			die('No records were written to the database.');}
  	mysqli_close($connection);
- 	header("Location: index.php"); 
+ 	header("Location: database-read.php"); 
 ?>

@@ -9,7 +9,7 @@
 
 
 	// 2. Perform database query
-	$query = "SELECT * FROM friends ";
+	$query = "SELECT * FROM project";
 
 
 	$result = mysqli_query($connection, $query);
@@ -31,6 +31,7 @@
 		<th>Name</th>
 		<th>Email</th>
 		<th>Phone Number</th>
+		<th>Message</th>
 	</tr>
 <?php
 
