@@ -22,7 +22,7 @@
 
   <body>
 
-    <!-- Static navbar -->
+    <!-- Static navbar. Had a lot of trouble getting the menu highlighter plugin to work with php includes, so used includes with the footer instead. -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -36,14 +36,13 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.php">Home</a></li>
+            <li class="active"><a href="index.php">Index</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
 
 	<div id="headerwrap">
 	    <div class="container">
@@ -106,18 +105,13 @@
 			    
 
 
-	<div id="footerwrap">
-		<div class="container">
-			<div class="row centered">
-					<p>jsocolow@u.rochester.edu</p>
-			</div>
-		</div>
-	</div>
+  <!-- Footer include -->
+  <?php include "assets/inc/footer.inc";?>
+	
 	
 
 
-    
-    <!-- jQuery, Slideshow -->
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </body>
 </html>

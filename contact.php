@@ -68,20 +68,24 @@
 			<div class="col-lg-8 col-lg-offset-2">
 			<form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="name">Name</label>
+    <input type="text" class="form-control" name="name" id="name">
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+
+   <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="text" class="form-control" name="email" id="email">
+  </div>
+
+   <div class="form-group">
+    <label for="phone">Phone</label>
+    <input type="tel" class="form-control" name="phone" id="phone">
   </div>
  
   <div class="form-group">
-    <label for="exampleTextarea">Example textarea</label>
-    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    <label for="message">Message</label>
+    <textarea class="form-control" name="message" id="message" rows="3" placeholder="Enter a message..."></textarea>
   </div>
-  </fieldset>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 			</div>
@@ -90,14 +94,9 @@
 	</div>
 	
 
-  <div id="footerwrap">
-    <div class="container">
-      <div class="row centered">
-          <p>jsocolow@u.rochester.edu</p>
-      </div>
-    </div>
-  </div>
-	
+  <!-- Footer include -->
+  <?php include "assets/inc/footer.inc";?>
+  
 
 
        <!-- jQuery, Slideshow -->
