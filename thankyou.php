@@ -36,8 +36,8 @@
   <div class="container">
     <div class="row centered mt mb">
       <div class="col-lg-8 col-lg-offset-2">
-      <h4> Thanks! </h4>
-      <h4> <
+      <h3> Thanks! </h3>
+      <h4><a href="index.php">(Back to Homepage)</a> </h4>
  
       </div>
 
