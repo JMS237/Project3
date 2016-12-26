@@ -68,22 +68,22 @@
 			<div class="col-lg-8 col-lg-offset-2">
 			<form>
   <div class="form-group">
-    <label for="name">Name</label>
+    <label for="name">Name:</label>
     <input type="text" class="form-control" name="name" id="name">
   </div>
 
    <div class="form-group">
-    <label for="email">Email address</label>
+    <label for="email">Email address:</label>
     <input type="text" class="form-control" name="email" id="email">
   </div>
 
    <div class="form-group">
-    <label for="phone">Phone</label>
+    <label for="phone">Phone:</label>
     <input type="tel" class="form-control" name="phone" id="phone">
   </div>
  
   <div class="form-group">
-    <label for="message">Message</label>
+    <label for="message">Message:</label>
     <textarea class="form-control" name="message" id="message" rows="3" placeholder="Enter a message..."></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
@@ -102,4 +102,5 @@
        <!-- jQuery, Slideshow -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </body>
+  
 </html>

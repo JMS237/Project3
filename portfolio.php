@@ -17,16 +17,12 @@
     <link rel="stylesheet" href="assets/css/unslider-dots.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
 
-      <!-- Menu Highlighter -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-  <script src="js/menu-highlighter.js"></script>
-
 
   </head>
 
   <body>
 
-   <!-- Static navbar -->
+    <!-- Static navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -40,17 +36,30 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php">Index</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="active"><a href="portfolio.php">Portfolio</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-	<div class="container">
-		<div class="row centered mt mb">
-			<div class="col-lg-8 col-lg-offset-2">
-				  <div class="my-slider">
+
+
+  <div id="portfoliowrap">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+          <h1 class="headertest"> My Portfolio </h1>
+        </div>
+      </div>
+      </div> <!-- /container -->
+  </div>
+  
+
+  <div class="container">
+    <div class="row centered mt mb">
+      <div class="col-lg-8 col-lg-offset-2">
+          <div class="my-slider">
             <ul>
               <li><img src="assets/img/project1.png" class="img-responsive" alt="Porject 1"><h4> Project 1: Music</h4> <p>Worked with Danny Diaz-Etchevehere, Ruairi Conway, Gunnar Zemering, and Teron Russell on the first group project. We decided to make our site about music.</p>
               <p>As the "content manager," I was responsible for filling every page with content. I decided what text to use, and also selected and edited each image for display. <a href="http://urcsc170.org/jsocolow/Project1">(Project site)</a> </p> </li>
@@ -62,14 +71,13 @@
             </ul>
           </div>
 
-		</div>
     </div>
-	</div>
+    </div>
+  </div>
 
-	
-  <!-- Footer include -->
+  
+<!-- Footer include -->
   <?php include "assets/inc/footer.inc";?>
-	
 
 
        <!-- jQuery, Slideshow -->

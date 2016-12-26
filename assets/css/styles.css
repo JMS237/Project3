@@ -1,3 +1,5 @@
+ /* Base Styles */
+ 
  hr {
     display: block;
     height: 1px;
@@ -7,18 +9,6 @@
     padding: 0;
 }
 
-.centered {
-	text-align: center
-}
-
-.mt {
-	margin-top: 80px;
-}
-
-.mb {
-	margin-bottom: 80px;
-}
-
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,17 +16,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #4a4a4a;
 }
 
-
-#paddingtest {
-	padding-left: 10%;
-	padding-bottom: 5%;
-}
-.morepadding {
-	padding-top:5%;
-}
-.push {
-	padding:3%;
-}
+/* Navbar Styles */
 
 .navbar-brand {
 	font-weight: 700;
@@ -60,6 +40,35 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav > li > a {
 	color: black;
 }
+
+
+/* Layout Styles */
+
+.centered {
+	text-align: center
+}
+
+.mt {
+	margin-top: 80px;
+}
+
+.mb {
+	margin-bottom: 80px;
+}
+
+
+
+#paddingtest {
+	padding-left: 10%;
+	padding-bottom: 5%;
+}
+.morepadding {
+	padding-top:5%;
+}
+.push {
+	padding:3%;
+}
+
 
 
 #headerwrap {
